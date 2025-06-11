@@ -1,0 +1,41 @@
+$blue: #3480F1;
+$purple: #432EC4;
+$primary_dark: #14161F;
+$primary_light: #FFFDF9;
+$primary_light2: #FEF9EE;
+$primary_light3: #FEF8EB;
+$secondary_light: #F7F5EF;
+$secondary_dark: #262831;
+$black: #000000;
+$tertiary_light: #858481;
+$tertiary_dark: #848281;
+$separator_light: #8E8E90;
+$error: #F23548;
+
+
+%Inter-400 {
+  font-family: 'IInter_24pt-Regular';
+  font-weight: 400;
+}
+%Inter-500 {
+  font-family: 'Inter_24pt-Medium';
+  font-weight: 500;
+}
+%Inter-600 {
+  font-family: 'Inter_24pt-SemiBold';
+  font-weight: 600;
+}
+
+ %checkbox-hidden,
+ %radio-hidden {
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   clip: rect(0 0 0 0);
+   position: absolute;
+ }
+ %uppercase{
+  &::first-letter {
+    text-transform: uppercase;
+  }
+ }

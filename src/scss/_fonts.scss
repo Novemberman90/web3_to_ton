@@ -1,0 +1,30 @@
+ 
+ 
+
+@font-face {
+  font-family: 'Inter_24pt-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Inter_24pt-SemiBold'),
+    url('../assets/fonts/Inter_24pt-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/Inter_24pt-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter_24pt-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Inter_24pt-Medium'),
+    url('../assets/fonts/Inter_24pt-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Inter_24pt-Medium.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter_24pt-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Inter_24pt-Regular'),
+    url('../assets/fonts/Inter_24pt-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Inter_24pt-Regular.woff') format('woff');
+  font-display: swap;
+}
