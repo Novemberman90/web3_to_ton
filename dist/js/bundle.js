@@ -1232,12 +1232,14 @@ var initMenu = function initMenu() {
 
     // Клик по кнопке подменю
     if (target.closest('.menu__submenu-btn')) {
-      submenu.classList.add('submenu--active');
+      submenu.classList.toggle('submenu--active');
+      submenuBtn.classList.toggle('menu__submenu-btn--active');
     }
 
     // Клик по кнопке "Back to Menu"
     if (target.closest('.submenu__btn-back')) {
       submenu.classList.remove('submenu--active');
+      submenuBtn.classList.remove('menu__submenu-btn--active');
     }
   });
   return {
